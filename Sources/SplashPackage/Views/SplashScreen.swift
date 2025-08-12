@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct SplashScreen: View {
+public struct SplashScreen: View {
     
     public init() {}
     
-    var body: some View {
+    public var body: some View {
         VStack(){
             Text("Splash Screen")
             Spacer()
